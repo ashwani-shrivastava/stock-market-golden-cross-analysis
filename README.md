@@ -52,7 +52,7 @@ MySQL: CTEs, window functions (`LAG`, `AVG() OVER`), `UNION ALL`, joins, aggrega
 
 ## Files
 - `Stock_Market_Data_Load.sql` : creates tables and loads data
-- `Stock_Market_Analysis.sql` : full SQL analysis
+- `Stock_Market_Analysis_.sql` : full SQL analysis
 - `Stock_Market_Analysis_Final_Insights_CORRECTED.pdf` : insights report
 
 ## Limitations

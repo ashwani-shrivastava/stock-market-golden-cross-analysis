@@ -4,6 +4,7 @@
 Analyze historical stock prices of six NSE companies using SQL to identify price trends, moving-average crossovers, Buy/Sell/Hold signals, major price movements and overall performance.
 
 **Companies:** Bajaj Auto, Eicher Motors, Hero MotoCorp, Infosys, TCS, TVS Motors
+
 **Period:** 1 Jan 2015 to 31 Jul 2018
 
 ## Dataset
@@ -48,11 +49,11 @@ MySQL: CTEs, window functions (`LAG`, `AVG() OVER`), `UNION ALL`, joins, aggrega
 ## How to Run
 1. Download the six stock CSV files and update the file paths in `Stock_Market_Data_Load.sql`
 2. Run `Stock_Market_Data_Load.sql` first (MySQL Workbench may need `LOCAL INFILE` enabled)
-3. Run `Stock_Market_Analysis.sql` from top to bottom
+3. Run `Stock_market_analysis_.sql` from top to bottom
 
 ## Files
 - `Stock_Market_Data_Load.sql` : creates tables and loads data
-- `Stock_Market_Analysis_.sql` : full SQL analysis
+- `Stock_market_analysis_.sql` : full SQL analysis
 - `Stock_Market_Analysis_Final_Insights_CORRECTED.pdf` : insights report
 
 ## Limitations
